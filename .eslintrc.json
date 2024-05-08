@@ -4,7 +4,7 @@
     "es2021": true
   },
   "extends": [
-    "next/code-web-vitals",
+    "next/core-web-vitals",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
@@ -21,9 +21,9 @@
     "react"
   ],
   "rules": {
-    "react-rooks/rules-of-hooks": "error",
-    "react-rooks/exhaustive-deps": "warn",
-    "react/props-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off"
   }
