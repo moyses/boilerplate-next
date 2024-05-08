@@ -12,7 +12,7 @@
     "plugin:storybook/recommended"
   ],
   "parser": "@typescript-eslint/parser",
-  "parseOptions": {
+  "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
